@@ -19,6 +19,10 @@ module.exports.policies = {
 
   '*': 'notFound',
 
+  'car/*': 'isAuthenticated',
+  'country/*': 'isAuthenticated',
+  'house/*': 'isAuthenticated',
+  'pet/*': 'isAuthenticated',
   'profile': 'isAuthenticated',
 
   'entrance/*': true,
