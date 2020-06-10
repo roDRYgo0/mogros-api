@@ -17,6 +17,10 @@ module.exports.policies = {
   *                                                                          *
   ***************************************************************************/
 
-  // '*': true,
+  '*': 'notFound',
+
+  'profile': 'isAuthenticated',
+
+  'entrance/*': true,
 
 };
